@@ -1,0 +1,9 @@
+-   id: flow-bin
+    name: flow-bin
+    entry: flow-bin
+    language: node
+    files: \.js$
+    args: []
+
+    # Use additional_dependencies to install the actual node package
+    minimum_pre_commit_version: 0.7.0
