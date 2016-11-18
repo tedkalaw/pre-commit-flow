@@ -2,9 +2,10 @@
     name: flow
     entry: flow
     language: node
-    files: \.js$
+    files: \.ignoreme$
     args: []
+    always_run: true
 
     # Use additional_dependencies to install the actual node package
-    additional_dependencies: ['flow@0.2.3']
+    additional_dependencies: ['flow-bin@0.35.0']
     minimum_pre_commit_version: 0.7.0
